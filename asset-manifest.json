@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/blog-redux/static/css/main.36497136.chunk.css",
+    "main.js": "/blog-redux/static/js/main.af01baf0.chunk.js",
+    "main.js.map": "/blog-redux/static/js/main.af01baf0.chunk.js.map",
+    "runtime~main.js": "/blog-redux/static/js/runtime~main.19f4e744.js",
+    "runtime~main.js.map": "/blog-redux/static/js/runtime~main.19f4e744.js.map",
+    "static/js/2.be8adc1d.chunk.js": "/blog-redux/static/js/2.be8adc1d.chunk.js",
+    "static/js/2.be8adc1d.chunk.js.map": "/blog-redux/static/js/2.be8adc1d.chunk.js.map",
+    "index.html": "/blog-redux/index.html",
+    "precache-manifest.fe49c43334ba55e613a4d9f48b7d670d.js": "/blog-redux/precache-manifest.fe49c43334ba55e613a4d9f48b7d670d.js",
+    "service-worker.js": "/blog-redux/service-worker.js",
+    "static/css/main.36497136.chunk.css.map": "/blog-redux/static/css/main.36497136.chunk.css.map"
+  }
+}
