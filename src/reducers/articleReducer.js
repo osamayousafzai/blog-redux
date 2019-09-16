@@ -1,15 +1,6 @@
 import { ADD_ARTICLE } from "../constants/action-types";
 
-const initialState = [
-  /* {
-    id: 1,
-    title: "Article One"
-  },
-  {
-    id: 2,
-    title: "Article Two"
-  } */
-];
+const initialState = [];
 
 const articleReducer = (state = initialState, action) => {
   switch (action.type) {
