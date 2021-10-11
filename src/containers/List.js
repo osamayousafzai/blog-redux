@@ -1,10 +1,9 @@
 // import packages
-import React, { Component } from "react";
-import { connect } from "react-redux";
-import { Card } from "react-bootstrap";
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { Card } from 'react-bootstrap';
 
-import AddForm from "./AddForm";
-// import actions
+import AddForm from './AddForm';
 
 class List extends Component {
   render() {
@@ -14,7 +13,7 @@ class List extends Component {
           <AddForm />
           <h4>Articles</h4>
 
-          {this.props.articles.map(article => (
+          {this.props.articles.map((article) => (
             <Card>
               <Card.Body key={article.id}>{article.title}</Card.Body>
             </Card>
@@ -25,13 +24,10 @@ class List extends Component {
   }
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
-    articles: state.articleReducer
+    articles: state.articleReducer,
   };
 };
 
-export default connect(
-  mapStateToProps,
-  null
-)(List);
+export default connect(mapStateToProps, null)(List);
